@@ -103,11 +103,11 @@ function AppLayout() {
           <Link to="/" className="brand-block">
             <img
               src={counsellingLogo}
-              alt="Smart Counselling System"
+              alt="Rank2Campus"
               className="brand-logo"
             />
             <div>
-              <strong>Smart Counselling System</strong>
+              <strong>Rank2Campus</strong>
               <span>Admission counselling and seat allotment portal</span>
             </div>
           </Link>
@@ -203,11 +203,11 @@ function AppLayout() {
             <div className="footer-logo-row">
               <img
                 src={counsellingLogo}
-                alt="Smart Counselling System"
+                alt="Rank2Campus"
                 className="brand-logo footer-mark"
               />
               <div>
-                <strong>Smart Counselling System</strong>
+                <strong>Rank2Campus</strong>
                 <span>
                   A unified portal for student registration, preference locking,
                   and transparent seat allocation.
@@ -231,12 +231,12 @@ function AppLayout() {
           <div className="footer-info">
             <h4>Contact</h4>
             <p>Admissions Cell, City Campus, New Delhi 110001</p>
-            <p>support@smartcounselling.edu.in</p>
+            <p>support@rank2campus.edu.in</p>
             <p>+91 1800 123 4567</p>
           </div>
         </div>
         <div className="footer-bottom">
-          <span>(c) 2026 Smart Counselling System. All rights reserved.</span>
+          <span>(c) 2026 Rank2Campus. All rights reserved.</span>
           <span>Privacy Policy</span>
         </div>
       </footer>

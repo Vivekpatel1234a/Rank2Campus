@@ -101,7 +101,7 @@ function Login({
       <section className="home-top-grid">
         <div className="home-hero-card">
           <span className="section-kicker">Home</span>
-          <h1>Smart Counselling Portal</h1>
+          <h1>Rank2Campus</h1>
           <p>Branch prediction, preference locking, and seat allocation in one simple system.</p>
 
           <div className="mini-dashboard-grid">
