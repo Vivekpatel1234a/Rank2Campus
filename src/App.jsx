@@ -371,9 +371,9 @@ function AppLayout() {
                   </h4>
                   <div className="space-y-2 text-sm text-muted">
                     {navLinks.map((link) => (
-                      <a key={link.to} href={link.to} className="block hover:text-primary transition-colors">
+                      <Link key={link.to} to={link.to} className="block hover:text-primary transition-colors">
                         {link.label}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
