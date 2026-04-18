@@ -92,7 +92,7 @@ function AICounsellor({ currentUser, students, branches }) {
                 <div className={`h-9 w-9 shrink-0 rounded-xl flex items-center justify-center text-sm shadow-sm ${
                   message.sender === "user"
                     ? "bg-blue-600 text-white"
-                    : "bg-slate-100 dark:bg-white/8 border border-white/10 text-blue-600 dark:text-blue-400"
+                    : "bg-surface-2 border border-subtle text-blue-600 dark:text-blue-400"
                 }`}>
                   {message.sender === "user" ? <PersonIcon sx={{ fontSize: 18 }} /> : <SmartToyIcon sx={{ fontSize: 18 }} />}
                 </div>
@@ -115,7 +115,7 @@ function AICounsellor({ currentUser, students, branches }) {
           {isTyping && (
             <div className="flex justify-start">
               <div className="flex gap-3 items-start">
-                <div className="h-9 w-9 rounded-xl bg-white/8 border border-white/10 flex items-center justify-center text-blue-400">
+                <div className="h-9 w-9 rounded-xl bg-surface-2 border border-subtle flex items-center justify-center text-blue-400">
                   <SmartToyIcon sx={{ fontSize: 18 }} />
                 </div>
                 <div className="px-5 py-3.5 rounded-2xl rounded-tl-sm border border-subtle flex items-center gap-3 bg-surface-3 shadow-card">

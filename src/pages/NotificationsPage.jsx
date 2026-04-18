@@ -109,9 +109,9 @@ function NotificationsPage() {
                    />
                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                    <div className="absolute top-6 left-6">
-                      <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-white dark:bg-surface-3/80 backdrop-blur-md border border-subtle shadow-premium">
+                      <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl bg-surface-1 dark:bg-surface-3/80 backdrop-blur-md border border-subtle shadow-premium">
                          <span className="text-blue-600 dark:text-blue-500 flex items-center">{news.icon}</span>
-                         <span className="text-[9px] font-black tracking-widest text-slate-900 dark:text-primary uppercase">{news.type}</span>
+                         <span className="text-[9px] font-black tracking-widest text-primary uppercase">{news.type}</span>
                       </div>
                    </div>
                 </div>

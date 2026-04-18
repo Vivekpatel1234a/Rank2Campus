@@ -133,9 +133,9 @@ function AboutPage() {
                   className="w-full h-full object-cover"
                   alt="College students standing"
                 />
-                <div className="absolute bottom-4 left-4 px-4 py-3 rounded-xl border border-subtle backdrop-blur-md shadow-premium bg-white dark:bg-surface-2/80">
+                <div className="absolute bottom-4 left-4 px-4 py-3 rounded-xl border border-subtle backdrop-blur-md shadow-premium bg-surface-1 dark:bg-surface-2/80">
                   <p className="text-2xl font-black text-blue-600 dark:text-blue-400 font-['Outfit']">25k+</p>
-                  <p className="text-[9px] font-bold text-slate-900 dark:text-muted uppercase tracking-widest">Alumni Network</p>
+                  <p className="text-[9px] font-bold text-muted uppercase tracking-widest">Alumni Network</p>
                 </div>
             </div>
 

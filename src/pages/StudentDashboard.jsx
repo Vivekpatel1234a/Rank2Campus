@@ -215,7 +215,7 @@ function StudentDashboard({
                 className={`rounded-xl px-5 py-3 text-[10px] font-bold uppercase tracking-widest transition-all duration-200 active:scale-95 ${
                   isSelected 
                   ? "bg-blue-600 text-white border border-blue-500" 
-                  : "bg-white/5 text-zinc-500 border border-white/8 hover:border-white/20 hover:text-white"
+                  : "bg-surface-2 text-muted border border-subtle hover:border-blue-500/30 hover:text-primary"
                 }`}
               >
                 {interest}
@@ -225,7 +225,7 @@ function StudentDashboard({
         </div>
       </div>
 
-      <div className="mt-10 pt-8 border-t border-white/5">
+      <div className="mt-10 pt-8 border-t border-subtle">
         <button
           onClick={() => saveProfile() && setMessage("Profile updated successfully.")}
           className="flex items-center gap-3 rounded-xl bg-blue-600 px-8 py-4 font-black text-white hover:bg-blue-500 transition-all duration-200 active:scale-95"
@@ -332,8 +332,8 @@ function StudentDashboard({
 
                     </div>
                   ) : (
-                    <div className="text-center py-10 border border-dashed border-white/10 rounded-xl">
-                      <p className="text-[11px] font-bold text-zinc-600 uppercase tracking-widest">Complete profile for data</p>
+                    <div className="text-center py-10 border border-dashed border-subtle rounded-xl bg-surface-1/50">
+                      <p className="text-[11px] font-bold text-muted uppercase tracking-widest">Complete profile for data</p>
                     </div>
                   )}
                 </div>
